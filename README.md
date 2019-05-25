@@ -1,1 +1,1 @@
-## 该页面作为公众号招聘页面
+vue+flexible+vant
