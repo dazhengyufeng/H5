@@ -1,0 +1,86 @@
+@media only screen and (min-width:768px) and (max-width:1200px){
+    /* 
+    * @author:王泽通
+    * @date:2019-02-27
+    * @instructions:千家严选响应式页面（平板）
+    */
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    html{
+        font-size: 20px;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+        display: flex;
+        align-items: center;
+    }
+    /*头部开始*/
+    .scri-header{
+        width: 95%;
+        margin: 0 auto;
+        padding-top: 0.1rem;
+        font-size: 0.25rem;
+    }
+    header>p{
+        letter-spacing: 0.05rem;
+    }
+    #head{
+        display: inline-block;
+        margin-top: 0.1rem;
+    }
+    .head-img{
+        width: 0.2rem;
+        margin-right: 0.04rem;
+    }
+    #head>span{
+        position: relative;
+        top: -0.05rem;
+        color: #5b6a91;
+        font-size: 0.14rem;
+    }
+    /*头部结束*/
+    /*内容开始*/
+    .stri-section{
+        width: 100%;
+        padding-top: 0.1rem;
+    }
+    #list{
+        list-style: none;
+    }
+    .card{
+        width: 97%;
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+        margin-left: 3%;
+        border-top: solid 0.001rem #e2e2e2;
+        padding-bottom: 0.1rem;
+        padding: 0.08rem 0rem;
+    }
+    .card-img{
+        width: 1.2rem;
+        height: 1rem;
+    }
+    .card-img>img{
+        width: 100%;
+        height: 100%;
+        margin-bottom: 0.2rem;
+    }
+    .card-font{
+        width: 6.5rem;
+        margin-left: 0.2rem;
+        text-align: left;
+    }
+    .card-subject{
+        font-size: 0.18rem;
+    }
+    .card-author{
+        color: #999999;
+        margin-top: 0.3rem;
+        font-size: 0.15rem;
+    }
+    /*内容结束*/
+}

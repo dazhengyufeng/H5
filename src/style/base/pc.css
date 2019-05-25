@@ -1,0 +1,280 @@
+@media only screen and (min-width:992px){
+    /* 
+    * @author:王泽通
+    * @date:2019-02-013
+    * @instructions:静态响应式页面（大型电脑）
+    */
+    body{
+        background-color: #ffffff
+     }
+     *{
+         margin: 0;
+         padding: 0;
+     }
+     html{
+         font-size: 20px;
+     }
+
+     /*logo开始*/
+     header{
+         width: 100%;
+         /* margin: 0 auto */
+     }
+     .head-bg{
+         width: 100%;
+         /* height: 8.93rem; */
+     }
+     .head-families{
+         position: absolute;
+         top: 0px;
+         width: 2.6rem;
+         height: 0.82rem;
+         background-color: #017f7c;
+         margin-left: 0.81rem;
+         opacity: 0.9;
+         border-bottom-left-radius: 0.07rem;
+         border-bottom-right-radius: 0.07rem;
+     }
+     .families-real{
+         position: absolute;
+         top: 0.22rem;
+         left: 1.2rem;
+         width: 1.7rem;
+     }
+     .families-logo{
+        position: absolute;
+        top: 0.9rem;
+        left: 0.85rem;
+        width: 2.5rem;
+    }
+     .foot-you{
+         position: absolute;
+         top: 7.55rem;
+         left: 0.9rem;
+         font-size: 0.6rem;
+         color: white;
+         text-align: left;
+         letter-spacing: 0.06rem;
+     }
+     .foot-hr{
+         position: absolute;
+         top: 8.4rem;
+         left: 0.9rem;
+         width: 5rem;
+         border: solid 0.01rem white
+     }
+     .foot-hearsay{
+         position: absolute;
+         top: 8.5rem;
+         left: 0.9rem;
+         font-size: 0.253rem;
+         color: white;
+         text-align: left;
+     }
+     .coil{
+         width: 3.8rem;
+         position: absolute;
+         top: 6.45rem;
+         left: 0.9rem;
+     }
+   .foot-mark{
+        position: absolute;
+        top: 7.5rem;
+        left: 5.62rem;
+        width: 0.57rem
+   }
+   .foot-qrcode{
+        position: absolute;
+        top: 7.6rem;
+        left: 7.6rem;
+        width: 1.35rem;
+   }
+   .foot-insert{
+       font-size: 0.2rem;
+       position: absolute;
+       top: 7.3rem;
+       left: 7.67rem;
+       color: white
+   }
+   /*logo结束*/
+   /*主内容开始*/
+   section{
+       position: relative;
+       text-align: center;
+   }
+    #container{
+        margin: 0 auto;
+        margin-bottom: 0.3rem;
+        width: 100%;
+        display: -webkit-box;
+    }
+   .triangle{
+        border-width: 0.1rem;
+        border-style: solid;
+        border-color: #017f7c transparent transparent;
+        width: 0;
+        margin: 0 auto;
+        margin-top: -0.02rem
+    }
+    .title{
+        width: 1.98rem;
+        height: 0.4rem;
+        line-height: 0.4rem;
+        background-color: #017f7c;
+        font-size: 0.18rem;
+        color: white;
+        border-radius: 0.04rem;
+    }
+    .engineer{
+        box-flex: 1; 
+        margin-left: 0.9rem;
+        margin-right: 0.17rem;
+        background-color: #f1f5f3;
+    }
+    .content{
+        padding-bottom: 0.2rem;
+    }
+    .content-level{
+        font-size: 0.11rem;
+        color: #4f4e4f;
+        margin-bottom: 0.03rem;
+    }
+    .content-rmb:nth-of-type(4){
+        font-size: 0.16rem;
+        color: black;
+        margin-bottom: 0.05rem;
+    }
+    .content-level:nth-of-type(6){
+        font-size: 0.11rem;
+        color: black;
+        margin-top: 0.26rem;
+    }
+    .content-rmb{
+        font-size: 0.16rem;
+        margin-bottom: 0.1rem;
+        color: #000000;
+    }
+    .contemt-img{
+        height: 0.2rem;
+    }
+    .content img{
+        position: absolute;
+        width: 0.04rem;
+    }
+    .content-rmbs{
+        font-size: 0.16rem;
+        color: #000000;
+    }
+    .banner{
+        position: relative;
+        width: 8.13rem;
+        height: 0.4rem;
+        line-height: 0.4rem;
+        font-size: 0.21rem;
+        margin-left: 0.9rem;
+        background-color: #017f7c;
+        color: white;
+        border-radius: 0.04rem;
+        text-align: center;
+    }
+    article{
+        margin-left: 0.9rem;
+        width: 8.13rem;
+        margin-top: 0.1rem;
+        height: 1rem;
+        position: relative;
+    }
+    .article-head{
+        margin-top: 0.2rem;
+    }
+    .article-head p{
+        font-size: 0.21rem;
+        letter-spacing: 0.05rem;
+    }
+    .article-font{
+        font-size: 0.2rem;
+    }
+    .left{
+        width: 0.1rem;
+        height: 0.78rem;
+        border-left:solid 0.03rem #017f7c;
+        border-top:solid 0.03rem #017f7c;
+        border-bottom:solid 0.03rem #017f7c;
+        position: absolute;
+        top: 0rem;
+        left: 1.3rem
+    }
+    .right{
+        width: 0.1rem;
+        height: 0.78rem;
+        border-right:solid 0.03rem #017f7c;
+        border-top:solid 0.03rem #017f7c;
+        border-bottom:solid 0.03rem #017f7c;
+        position: absolute;
+        top: 0rem;
+        left: 6.7rem
+    }
+    .article-foot{
+        position: relative;
+        top: 0.1rem;
+        font-weight: 600;
+        letter-spacing: 0.05rem;
+    }
+    .article-foot p{
+        font-size: 0.2rem;
+        color: #000000
+    }
+    /*主内容结束*/
+    /*底部开始*/
+    footer{
+        position: relative;
+        top: 0.7rem;
+        height: 0.8rem;
+        text-align: center;
+    }
+    .footer-infor{
+        width: 100%;
+        margin: 0 auto;
+        font-size: 0.18rem;
+        color: #017f7c;
+    }
+    .footer-infor div{
+        display: inline-block;
+    }
+    .footer-infor img{
+        height: 0.2rem;
+        position: relative;
+        top: 0.02rem;
+    }
+    .infor-phone{
+        position: relative;
+        left: -1.25rem;
+    }
+    .infor-website{
+        position: relative;
+        left: -0.1rem;
+    }
+    .infor-website a{
+        color: #017f7c;
+        text-decoration: none;
+    }
+    .infor-address{
+        position: relative;
+        left: 1.2rem;
+    }
+    .footer-foot{
+        height: 0.25rem;
+        line-height: 0.25rem;
+        background-color: #017f7c;
+        font-size: 0.13rem;
+        color: white;
+    }
+    .footer-foot>span{
+        margin-right: 0.63rem;
+    }
+    .footer-foot>span:nth-of-type(1){
+        margin-left: 0.5rem;
+        position: relative;
+    }
+    /*底部结束*/
+}

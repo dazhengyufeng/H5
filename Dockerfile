@@ -1,0 +1,14 @@
+FROM registry-vpc.cn-beijing.aliyuncs.com/qianjia2018/qianjia_public:dist-node as build-stage
+WORKDIR /app
+COPY package*.json ./
+RUN apk update && apk upgrade && \
+    apk add --no-cache bash git openssh
+RUN npm config set registry http://172.18.0.1:9000/repository/node-public && npm install
+COPY . .
+RUN npm run lan
+
+FROM registry-vpc.cn-beijing.aliyuncs.com/qianjia2018/qianjia_public:dist-nginx as production-stage
+#FROM nginx:1.13.12-alpine as production-stage
+COPY --from=build-stage /app/dist /usr/share/nginx/html
+EXPOSE 80
+CMD ["nginx", "-g", "daemon off;"]
